@@ -1,0 +1,28 @@
+body{
+	background-color: #F5F1CE;
+	background-repeat: repeat-y;
+	align-content: center;
+	text-align: center;
+	color: white;
+	font-size:90%;
+
+	
+}	
+h1{
+	text-align: center;
+	color:green;
+	font-family: "Times New Roman", Times, serif;
+}
+input{
+  
+  padding: 12px 20px;
+  margin: 12px 0;
+  color:blue;
+  
+  align-content: center;
+  box-sizing: border-box;
+}
+.container{
+	color: purple;
+	font-size: 100%;
+}

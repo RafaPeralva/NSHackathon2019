@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- CSS sheet goes here -->
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<title>HeadStart</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>HeadStart</h1>
+			<h6>Please sign in: </h4>
+			
+				<form action="action_page.php method="post">
+					<div class="container">
+						<label for="email"><b>Email    </b></label>
+							<input id="email" type="text placeholder="Enter Email" name="email" required>
+							<br>
+							<label for="psw"> <b> 
+								Password</b></label>
+							<input id="password" type="password" placeholder="Enter Password" name="psw" required>
+							<br>
+							<button id="btn" type="submit" class="btn btn-outline-primary">Login</button>
+
+
+						</div>
+
+			</div>
+  		<!-- Content here -->
+		</div>
+		
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+     		https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+		<script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+				apiKey: "AIzaSyAGLh748BlYrJu0Y1Mg6lBsQDsPryaxqDU",
+				authDomain: "formdatahck19.firebaseapp.com",
+				databaseURL: "https://formdatahck19.firebaseio.com",
+				projectId: "formdatahck19",
+				storageBucket: "formdatahck19.appspot.com",
+				messagingSenderId: "1069997496495",
+				appId: "1:1069997496495:web:8b847b1dc76aa81a4a1c5a",
+				measurementId: "G-3QS87XC78H"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script type="text/javascript" src="sign.js"></script>
+
+	</body>
+<html>

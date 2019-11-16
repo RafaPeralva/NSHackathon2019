@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	    
+
+
+		<!-- CSS sheet goes here -->
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<title>HeadStart</title>
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>HeadStart</h1>
+			<form onsubmit="handleOnSubmit(event)">
+				<p>First Name <input required id="firstName" type="name" name="name" /></p>
+				<p>Last Name <input required id="lastName" type="name" name="LastName"/></p>
+				<p>Email <input required id="email" type="email" name="email"/> </p>
+				<p>Username <input required id="username" type="name" name="username"/> </p>
+				<p>Password <input required id="password" type="password" name="password"/> </p>
+				<p>Location <input required id="location" type="name" name="location"/> </p> 
+				<p>Language <input required id="language" type="name" name="language"/> </p>				
+				<input type="submit" class="btn btn-outline-primary" value="Submit" 
+         				name="Submit" id="frm1_submit" />
+			</form>
+			<form action="thankyou.html" method="get">
+    				
+							</form>
+
+			
+				
+
+			</div>
+  		<!-- Content here -->
+		</div>
+	
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+     		https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+		<script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+				apiKey: "AIzaSyAGLh748BlYrJu0Y1Mg6lBsQDsPryaxqDU",
+				authDomain: "formdatahck19.firebaseapp.com",
+				databaseURL: "https://formdatahck19.firebaseio.com",
+				projectId: "formdatahck19",
+				storageBucket: "formdatahck19.appspot.com",
+				messagingSenderId: "1069997496495",
+				appId: "1:1069997496495:web:8b847b1dc76aa81a4a1c5a",
+				measurementId: "G-3QS87XC78H"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script type="text/javascript" src="index.js"></script>
+
+	</body>
+<html>
